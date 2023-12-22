@@ -24,7 +24,7 @@ const userController = {
           name,
           email,
           password: await hashPassword(password),
-          profile: `${process.env.AWS_CLOUDFRONT_KEY}Assets/download.png`,
+          profile: `${process.env.AWS_CLOUDFRONT_KEY}/Assets/download.png`,
           createdAt: new Date().toUTCString(),
         });
         return res.status(200).json({
