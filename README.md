@@ -5,7 +5,7 @@ Follow these steps to run the application locally:
 Open `git bash` Cli,
 
 1. Clone the repository:
-   `git clone https://github.com/vigneshvicky3122/IO-Factory/tree/backend`
+   `git clone https://github.com/vigneshvicky3122/IMDB-APP/tree/backend`
    `cd project-directory`
 
 2. Install dependencies using Yarn:
