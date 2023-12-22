@@ -1,0 +1,29 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: #fafafa;
+}
+.carousel-inner > .carousel-item > img {
+  width: 100% !important;
+  height: 60vh !important;
+}
+.card > img {
+  width: 210px;
+  height: 270px;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 8px black;
+}
+@media screen and (max-width: 768px) {
+  #navbar-form {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #sidebar-form {
+    display: none !important;
+  }
+}
